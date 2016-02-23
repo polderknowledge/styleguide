@@ -41,7 +41,7 @@ When appropriate, you can tag the subject of your post on Twitter or Facebook. B
 
 ### Hashtags
 
-We employ hashtags rarely and deliberately. We may use them to promote an event or connect with users at a conference. Do not use current event or trending hashtags to promote MailChimp.
+We employ hashtags rarely and deliberately. We may use them to promote an event or connect with users at a conference. Do not use current event or trending hashtags to promote Polder Knowledge.
 
 ### Trending topics
 
