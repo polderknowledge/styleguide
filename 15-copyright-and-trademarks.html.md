@@ -13,7 +13,7 @@ Copyright protection begins when the work is first created and it doesn’t requ
 
 Copyright notice on the work is not required but it *is* recommended, since it cuts off a defense of [innocent infringement](https://www.law.cornell.edu/uscode/text/17/401).
 
-## Copyright at MailChimp
+## Copyright at Polder Knowlege
 
 Copyright law applies to nearly every piece of content we create at Polder Knowledge, from our website to our blog posts to the gifts we make for our users. We display proper—and prominent—copyright notice on our website site and ony other content we produce.
 
