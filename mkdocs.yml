@@ -1,6 +1,31 @@
 docs_dir: docs/book
 site_dir: docs/html
 pages:
+  - Home: index.md
+  - Writing Goals and Principles: 01-writing-principles.html.md
+  - Voice and Tone: 02-voice-and-tone.html.md
+  - Writing About People: 03-writing-about-people.html.md
+  - Grammar and Mechanics: 04-grammar-and-mechanics.html.md
+  - Content Types: 05-content-types.html.md
+  - Web Elements: 06-web-elements.html.md
+  - Writing:
+      - Blog Posts: 07-writing-blog-posts.html.md
+      - Technical Content: 08-writing-technical-content.html.md
+      - Legal Content: 09-writing-legal-content.html.md
+      - Email Newsletters: 10-writing-email-newsletters.html.md
+      - For Social Media: 11-writing-for-social-media.html.md
+      - For Accessibility: 12-writing-for-accessibility.html.md
+      - For Translation: 13-writing-for-translation-TODO.html.md
+  - Creating Structured Content: 14-creating-structured-content.html.md
+  - Copyright and Trademarks: 15-copyright-and-trademarks.html.md
+  - Word List: 16-word-list.html.md
+  - Resources:
+      - Publishing Checklist: resources/01-publishing-checklist.html.md
+      - Further Reading: resources/02-further-reading.html.md
+  - About:
+      - Licence: LiCENCE.md
+      - Contributing: CONTRIBTUTING.md
+
 site_name: Polder Knowledge style guide
 site_description: Polder Knowledge style guide
 repo_url: 'https://github.com/polderknowledge/styleguide'
