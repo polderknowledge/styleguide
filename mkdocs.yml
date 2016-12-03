@@ -1,0 +1,7 @@
+docs_dir: docs/book
+site_dir: docs/html
+pages:
+site_name: Polder Knowledge style guide
+site_description: Polder Knowledge style guide
+repo_url: 'https://github.com/polderknowledge/styleguide'
+copyright: 'Copyright (c) 2002-2016 <a href="https://www.polderknowledge.com/">Polder Knowledge</a>'

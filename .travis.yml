@@ -1,0 +1,32 @@
+language: php
+
+php:
+  - 7.0
+
+# This triggers builds to run on the new TravisCI infrastructure.
+# See: http://docs.travis-ci.com/user/workers/container-based-infrastructure/
+sudo: false
+
+cache:
+  directories:
+    - "$HOME/.local"
+    - mkdocs-theme
+
+env:
+  global:
+    - SITE_URL: https://polderknowledge.github.io/styleguide
+    - GH_USER_NAME: "Polder Knowledge"
+    - GH_USER_EMAIL: jaap@polderknowledge.nl
+    - GH_REF: github.com/polderknowledge/styleguide.git
+    - secure: "mZ9wiG6DcNWBHQ8C1xHC0Tf7JzEI5T+MjB1Dqdn3twGD0cUmLLwYvjWmet7oClSsUWOX5rhQFvvygVYvftGhhNyp7lnvPzI9Mz21rsVBVdLUugpd46TL8uYYP/fHzc36zKW+QWhrDJUkBV1sPQSTsw0nrETrIkiTzom0S7HPzUOS6TP1V17lWfVN0SwaTEKeVvKEDk5TrW2bs2T/rErlaHj60xgLAT4hlOD7kcsIp3T9oXtGmBNElfHu+QPOz9EYEcu6/rRU4eIqtKyJk697Lts7pVISMiO695Qht67wh9pY0aYNoaeTVY6/ZgETkKuRGGBGhAekcZjeXUpuOgyLiSWF2TYTIyhAwb6WKckHNO6W/mJcIQAZ55eDwaQ8DVtc5JPKG3Ao5zBKGOG7RC2oERDLJnoknlEY2gQ5O3dyzAhjb8Imu1Enm2p3U3TlatJLlaiBavqtfrfGdiMFzYFq6tL/7wpOcINcJceN1lbmJ1goEbHaCEOL4TxIU7B2T7vfA2j+P9vnds3xcXL3Hftgr+XQ1EAzGeslNJtpKAiqID7YBH2QGFbXaEjVNADWYIEg1oqtJqprlFAWTmGOeekfiW4TYO6o4hccJbQxbZfVBfS3Zp+Wcx8Rshp5q8M2NFHXQyghh8Mah3U2EdKCSVh7RnMVxZp817bS0lCk8v9wiZY="
+
+script:
+   - PATH="$HOME/.local/bin:$PATH"
+   - DEPLOY_DOCS="$(if [[ $TRAVIS_BRANCH == 'master' && $TRAVIS_PULL_REQUEST == 'false' ]]; then echo -n 'true' ; else echo -n 'false' ; fi)"
+   - if [[ $DEPLOY_DOCS == "true" && "$TRAVIS_TEST_RESULT" == "0" ]]; then wget -O theme-installer.sh "https://raw.githubusercontent.com/polderknowledge/mkdocs-theme/master/theme-installer.sh" ; chmod 755 theme-installer.sh ; ./theme-installer.sh ; fi
+   - mkdir -p docs/book;
+   - cd docs/book;
+   - find ../../ -type f -name "*.md" -exec ln -s {} . ';
+   - ln -s ../../resources .;
+   - if [[ $DEPLOY_DOCS == "true" ]]; then ./mkdocs-theme/deploy.sh ; fi
+
