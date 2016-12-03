@@ -26,5 +26,6 @@ script:
    - if [[ $DEPLOY_DOCS == "true" ]]; then wget -O theme-installer.sh "https://raw.githubusercontent.com/polderknowledge/mkdocs-theme/master/theme-installer.sh" ; chmod 755 theme-installer.sh ; ./theme-installer.sh ; fi
    - mkdir -p docs/book;
    - cd docs/book && find ../../ -type f -name "*.md" -exec ln -s {} . ';' && ln -s ../../resources
+   - cd ../../
    - if [[ $DEPLOY_DOCS == "true" ]]; then ./mkdocs-theme/deploy.sh ; fi
 
