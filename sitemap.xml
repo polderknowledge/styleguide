@@ -11,23 +11,7 @@
 
     
     <url>
-     <loc>/01-publishing-checklist.html/</loc>
-     <lastmod>2016-12-03</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
      <loc>/01-writing-principles.html/</loc>
-     <lastmod>2016-12-03</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>/02-further-reading.html/</loc>
      <lastmod>2016-12-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -74,59 +58,49 @@
     
 
     
+        
     <url>
      <loc>/07-writing-blog-posts.html/</loc>
      <lastmod>2016-12-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
      <loc>/08-writing-technical-content.html/</loc>
      <lastmod>2016-12-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
      <loc>/09-writing-legal-content.html/</loc>
      <lastmod>2016-12-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
      <loc>/10-writing-email-newsletters.html/</loc>
      <lastmod>2016-12-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
      <loc>/11-writing-for-social-media.html/</loc>
      <lastmod>2016-12-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
      <loc>/12-writing-for-accessibility.html/</loc>
      <lastmod>2016-12-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
      <loc>/13-writing-for-translation-TODO.html/</loc>
      <lastmod>2016-12-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     
 
     
@@ -154,59 +128,35 @@
     
 
     
+        
     <url>
-     <loc>/17-tldr.html/</loc>
+     <loc>/resources/01-publishing-checklist.html/</loc>
      <lastmod>2016-12-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    <url>
+     <loc>/resources/02-further-reading.html/</loc>
+     <lastmod>2016-12-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
+        
     <url>
-     <loc>/18-resources.html/</loc>
+     <loc>/LiCENCE/</loc>
      <lastmod>2016-12-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
-     <loc>/CHANGELOG/</loc>
+     <loc>/CONTRIBTUTING/</loc>
      <lastmod>2016-12-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
-    <url>
-     <loc>/CONTRIBUTING/</loc>
-     <lastmod>2016-12-03</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>/LICENSE/</loc>
-     <lastmod>2016-12-03</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>/README/</loc>
-     <lastmod>2016-12-03</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>/readme/</loc>
-     <lastmod>2016-12-03</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
+        
     
 
 </urlset>
